@@ -1,12 +1,30 @@
-= Документация проекта
+= Общество с ограниченной ответственностью «Рога и копыта»
 :doctype: book
-:toc:
-:toclevels: 3
+:notitle:
 
-include::includes/attributes.adoc[]
+<<<
 
-== Введение
-include::chapters/intro.adoc[]
+= Термины и определения
+include::chapters/term.adoc[]
 
-== Использование
-include::chapters/usage.adoc[]
+= Сокращения и обозначения
+include::chapters/abb.adoc[]
+
+= Общие положения
+
+== Общие сведения
+include::chapters/common_data.adoc[]
+
+== Сведения об использованных при проектировании нормативно-технических документах
+include::chapters/off_docs_info.adoc[]
+
+== Описание процесса деятельности
+include::includes/activity_process.adoc[]
+
+== Основные технические решения
+
+=== Решения по структуре Системы
+include::chapters/struct.adoc[]
+
+=== Решения по взаимосвязям Системы с внешними и смежными системами, обеспечению ее совместимости
+include::chapters/connections.adoc[]

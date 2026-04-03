@@ -22,6 +22,8 @@ pandoc \
   --from html \
   --reference-doc="$STYLES_DIR/reference.docx" \
   --lua-filter="$STYLES_DIR/styles.lua" \
+  --toc \
+  -M toc-title="Содержание" \
   -o "$BUILD_DIR/docx/output.docx"
 
 echo "==> Готово: $BUILD_DIR/docx/output.docx"
