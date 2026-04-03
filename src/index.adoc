@@ -1,0 +1,12 @@
+= Документация проекта
+:doctype: book
+:toc:
+:toclevels: 3
+
+include::includes/attributes.adoc[]
+
+== Введение
+include::chapters/intro.adoc[]
+
+== Использование
+include::chapters/usage.adoc[]
