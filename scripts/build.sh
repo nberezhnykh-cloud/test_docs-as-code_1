@@ -14,16 +14,16 @@ echo "==> Генерация HTML через Asciidoctor"
 asciidoctor \
   -b html5 \
   -D "$BUILD_DIR/html" \
-  "$SRC_DIR/index.adoc"
+  "$SRC_DIR/$1.adoc"
 
 echo "==> Конвертация в DOCX через Pandoc"
 pandoc \
-  "$BUILD_DIR/html/index.html" \
+  "$BUILD_DIR/html/$1.html" \
   --from html \
   --reference-doc="$STYLES_DIR/reference.docx" \
   --lua-filter="$STYLES_DIR/styles.lua" \
   --toc \
   -M toc-title="Содержание" \
-  -o "$BUILD_DIR/docx/output.docx"
+  -o "$BUILD_DIR/docx/$2.docx"
 
-echo "==> Готово: $BUILD_DIR/docx/output.docx"
+echo "==> Готово: $BUILD_DIR/docx/$2.docx"

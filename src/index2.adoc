@@ -1,0 +1,33 @@
+= Общество с ограниченной ответственностью «Рога и копыта 2.0»
+:doctype: book
+:notitle:
+
+<<<
+
+= Термины и определения
+include::chapters/term.adoc[]
+
+= Сокращения и обозначения
+include::chapters/abb.adoc[]
+
+= Общие положения
+
+== Область применения Системы
+include::chapters/common_data.adoc[]
+
+== Краткое описание возможностей Системы
+include::chapters/off_docs_info.adoc[]
+
+== Требования к квалификации администраторов
+include::chapters/activity_process.adoc[]
+
+== Перечень эксплуатационных документов, с которыми необходимо ознакомиться администратору
+include::chapters/activity_process.adoc[]
+
+= Назначение и условия применения
+
+== Виды деятельности, функции, для автоматизации которых предназначена Система
+include::chapters/struct.adoc[]
+
+== Условия, при соблюдении которых обеспечивается применение Системы
+include::chapters/connections.adoc[]

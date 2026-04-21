@@ -19,7 +19,7 @@ include::chapters/common_data.adoc[]
 include::chapters/off_docs_info.adoc[]
 
 == Описание процесса деятельности
-include::includes/activity_process.adoc[]
+include::chapters/activity_process.adoc[]
 
 == Основные технические решения
 
