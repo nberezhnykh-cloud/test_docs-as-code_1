@@ -17,8 +17,8 @@ function Div(el)
       el.attributes["custom-style"] = "_list-3-lvl"
     elseif class == "CustomList4" then
       el.attributes["custom-style"] = "_list-4-lvl"
-    elseif class == "CustomListNum" then
-      el.attributes["custom-style"] = "Нумерованный список"
+    elseif class == "CustomListNum1" then
+      el.attributes["custom-style"] = "_list-1-lvl-num"
     elseif class == "PictureName" then
       el.attributes["custom-style"] = "_Picture-name"
     elseif class == "Picture" then
