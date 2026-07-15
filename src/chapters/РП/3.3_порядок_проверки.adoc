@@ -15,7 +15,7 @@
 [.PictureName]
 .Главная страница Системы для неавторизованного пользователя
 [.Picture]
-image::src/assets/images/pic1.png[]
+image::src/assets/images/РП/pic1.png[]
 
 [.CustomText]
 --

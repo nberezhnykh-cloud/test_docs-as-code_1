@@ -1,0 +1,47 @@
+[.CustomText]
+*ДЕПАРТАМЕНТ ПО РОЖКАМ ДА НОЖКАМ*
+
+++++
+<table style="width:100%; border-collapse:collapse; border:1px solid #000;">
+  <tr>
+    <td style="border:1px solid #000; padding:10px; text-align:left; vertical-align:middle; width:50%;">
+      <strong>УТВЕРЖДАЮ</strong><br>
+      <br>
+      Заказчик:<br>
+      <br>
+      Заместитель руководителя<br>
+      Департамента по рожкам да ножкам<br>
+      <br>
+      __________________ И.О. Фамилия<br>
+      <br>
+      М.П.
+    </td>
+    <td style="border:1px solid #000; padding:10px; text-align:left; vertical-align:middle; width:50%;">
+      <strong>УТВЕРЖДАЮ</strong><br>
+      <br>
+      Подрядчик:<br>
+      <br>
+      Генеральный директор<br>
+      ООО «Рога и копыта»<br>
+      <br>
+      __________________ И.О. Фамилия<br>
+      <br>
+      М.П.
+    </td>
+  </tr>
+</table>
+++++
+
+[.CustomText]
+--
+*Государственный контракт от дд месяц гггг г. № ГК хххх/хх-хххх на выполнение работ по созданию государственной информационной системы: информационная система «M»*
+
+*Этап №*
+
+*ПРОТОКОЛ ПРЕДВАРИТЕЛЬНЫХ ИСПЫТАНИЙ*
+
+
+Москва
+
+2026
+--
