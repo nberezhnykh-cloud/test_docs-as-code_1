@@ -23,6 +23,8 @@ function Div(el)
       el.attributes["custom-style"] = "_Picture-name"
     elseif class == "Picture" then
       el.attributes["custom-style"] = "_Picture"
+    elseif class == "Add" then
+      el.attributes["custom-style"] = "_Add"     
     end
   end
 
