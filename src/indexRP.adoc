@@ -11,7 +11,6 @@ include::chapters/РП/term_rp.adoc[]
 include::chapters/РП/abb_rp.adoc[]
 
 = Общие положения
-
 == Область применения Системы
 include::chapters/РП/1.1_область_применения.adoc[]
 
