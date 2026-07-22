@@ -10,33 +10,14 @@
 Состав СПО, используемого во время испытаний Системы, приведен в таблице <<tbl-5, 5>>.
 
 [[tbl-5]]
-.Состав системного программного обеспечения
-[%header, cols="5%,20%,20%,20%,10%,15%,10%, frame="all", grid="all"]
-|===
-| № | Имя ресурса | Название системного ПО | Производитель | Версия | Лицензионный параметр | Кол-во
-|1 | mostechportal-bd01p | MosOS Arbat | ДИТ Москвы | 15.5	| –	| –
-|1 | mostechportal-bd01p | PostgreSQL | PostgreSQL Global Dev Group | 17 | PostgreSQL License/открытое ПО | 1
-|2 | mostechportal-bd02p | MosOS Arbat | ДИТ Москвы | 15.5 | – | –
-|2 | mostechportal-bd02p | PostgreSQL | PostgreSQL Global Dev Group | 17 | PostgreSQL License/открытое ПО | 1
-|3 | mostechportal-bd03p | MosOS Arbat | ДИТ Москвы | 15.5 | – | –
-|3 | mostechportal-bd03p | PostgreSQL | PostgreSQL Global Dev Group | 17 | PostgreSQL License/открытое ПО | 1
-|4 | mostechportal-kafka01p | MosOS Arbat | ДИТ Москвы | 15.5 | – | –
-|4 | mostechportal-kafka01p | Kafka | Apache Software Foundation | 4.0 | Apache 2.0/открытое ПО | 1
-|5 | S3 Prod | MosOS Arbat | ДИТ Москвы | 15.5 | – | –
-|5 | S3 Prod | S3-совместимое хранилище | ДИТ Москвы | – | – | –
-|6 | Kubernetes cluster (prod) | MosOS Arbat | ДИТ Москвы | 15.5 | – | –
-|6 | Kubernetes cluster (prod) | Docker Engine | Docker Inc. | stable | Apache 2.0/открытое ПО | –
-|6 | Kubernetes cluster (prod) | Kubernetes | CNCF | Версия кластера | Apache 2.0/открытое ПО | –
-|7 | APISIX prod | APISIX | Apache Software Foundation | 2.11.0 | Apache 2.0/открытое ПО | 1
-|7 | APISIX prod | APISIX Dashboard | Apache Software Foundation | 2.11 | Apache 2.0/открытое ПО | 1
-|===
-
+Таблица 5 – Состав системного программного обеспечения
+include::table_Состав_системного_программного_обеспечения.html[]
 
 [.CustomText]
 Состав ППО, используемого во время испытаний Системы, приведен в таблице <<tbl-6, 6>>.
 
 [[tbl-6]]
-.Состав прикладного программного обеспечения
+Таблица 6 – Состав прикладного программного обеспечения
 [%header, cols="10%,25%,25%,40%", frame="all", grid="all"]
 |===
 | № | Наименование | Описание  | Документ, описывающий прикладное программное обеспечение 
@@ -47,8 +28,8 @@
 [.CustomText]
 Сведения о размещении компонентов Системы приведены в таблице <<tbl-7, 7>>.
 
-[[tbl-6]]
-.Размещение компонентов Системы
+[[tbl-7]]
+Таблица 7 – Размещение компонентов Системы
 [%header, cols="10%,20%,25%,25%,20%", frame="all", grid="all"]
 |===
 | № | Система | Подсистема | Компонент | Технологическая платформа
