@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 set -e
 
@@ -16,6 +17,9 @@ asciidoctor \
   -D "$BUILD_DIR/html" \
   "$SRC_DIR/$1.adoc"
 
+
+DOCBOOK_FILE="$BUILD_DIR/docbook/$1.xml"
+
 echo "==> Конвертация в DOCX через Pandoc"
 pandoc \
   "$BUILD_DIR/html/$1.html" \
@@ -25,5 +29,6 @@ pandoc \
   --toc \
   -M toc-title="Содержание" \
   -o "$BUILD_DIR/docx/$2.docx"
+
 
 echo "==> Готово: $BUILD_DIR/docx/$2.docx"
